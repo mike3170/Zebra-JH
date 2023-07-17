@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<properties>
+		<!--<property name="filename">C:/users/user/logs/mobBoot.log</property>-->
+		<property name="filename">zebra.log</property>
+	</properties>
+
+	<appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+		</Console>
+
+    <!-- c{1} : simple class name  c{10} full -->
+		<File name="myFile" fileName="${filename}">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5level %c{1.} - %msg%n"/>
+    </File>
+
+	</appenders>
+
+	<loggers>
+		<Root level="info">
+      <AppenderRef ref="Console"/>
+    </Root>
+
+		<logger name="org.springframework" level="info" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<logger name="org.springframework.web.servlet.mvc" level="warn" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<logger name="org.springframework.transaction" level="info" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<logger name="org.springframework.transaction.interceptor" level="debug" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<logger name="bitronix" level="info" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<logger name="org.hibernate" level="info" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<!-- show sql, set to debug -->
+		<logger name="org.hibernate.SQL" level="info" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<logger name="org.apache.catalina" level="warn" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+
+		<logger name="com.stit" level="ALL" additivity="false" >
+			<appender-ref ref="myFile" />
+		</logger>
+		 
+    <logger name="com.zaxxer.hikari" level="trace" additivity="false">
+        <appender-ref ref="myFile"/>
+    </logger>
+
+	</loggers>
+
+</configuration>

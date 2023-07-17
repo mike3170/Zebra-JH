@@ -1,0 +1,470 @@
+2020-05-28 16:27:47 INFO  c.s.z.App - Starting App on LAPTOP-POOU703C with PID 17148 (D:\nbProjects\zebra\target\classes started by User in D:\nbProjects\zebra)
+2020-05-28 16:27:47 DEBUG c.s.z.App - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-28 16:27:47 INFO  c.s.z.App - The following profiles are active: dev
+2020-05-28 16:27:47 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-28 16:27:47 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-28 16:27:48 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-28 16:27:48 INFO  o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 968 ms
+2020-05-28 16:27:48 DEBUG c.z.h.HikariConfig - Driver class oracle.jdbc.OracleDriver found in Thread context class loader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3356defb
+2020-05-28 16:27:49 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-05-28 16:27:49 INFO  o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-28 16:27:49 INFO  c.s.z.App - Started App in 1.817 seconds (JVM running for 2.537)
+2020-05-28 16:27:49 INFO  c.s.z.App - ----------------------------------------------
+2020-05-28 16:27:49 INFO  c.s.z.App - dbUrl:jdbc:oracle:thin:@localhost:1522:scorpio
+2020-05-28 16:27:49 INFO  c.s.z.App - Application ready...
+2020-05-28 16:31:11 INFO  o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-28 16:31:11 INFO  o.s.w.s.DispatcherServlet - Completed initialization in 4 ms
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - HikariPool-1 - configuration:
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - allowPoolSuspension.............false
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - autoCommit......................true
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - catalog.........................none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - connectionInitSql...............none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - connectionTestQuery.............none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - connectionTimeout...............300000
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - dataSource......................none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - dataSourceClassName.............none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - dataSourceJNDI..................none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - dataSourceProperties............{password=<masked>}
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - driverClassName................."oracle.jdbc.OracleDriver"
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - healthCheckProperties...........{}
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - healthCheckRegistry.............none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - idleTimeout.....................120000
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - initializationFailTimeout.......1
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - isolateInternalQueries..........false
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - jdbcUrl.........................jdbc:oracle:thin:@localhost:1522:scorpio
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - leakDetectionThreshold..........0
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - maxLifetime.....................1800000
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - maximumPoolSize.................10
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - metricRegistry..................none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - metricsTrackerFactory...........none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - minimumIdle.....................2
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - password........................<masked>
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - poolName........................"HikariPool-1"
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - readOnly........................false
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - registerMbeans..................false
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - scheduledExecutor...............none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - schema..........................none
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - threadFactory...................internal
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - transactionIsolation............default
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - username........................"jherp"
+2020-05-28 16:32:06 DEBUG c.z.h.HikariConfig - validationTimeout...............5000
+2020-05-28 16:32:06 INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2020-05-28 16:32:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@73b4d211
+2020-05-28 16:32:07 INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2020-05-28 16:32:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=1, active=1, idle=0, waiting=0)
+2020-05-28 16:32:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=1, active=1, idle=0, waiting=0)
+2020-05-28 16:32:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@777a9bd1
+2020-05-28 16:32:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:32:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:32:47 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:32:47 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-001, sheetDate=2020-05-28 16:32:47.8199823, scanDate=Thu May 28 16:32:47 CST 2020, kind=2, barCode=jhghhj, locate=, scwJobNo=, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 16:32:47 INFO  c.s.r.JhBarcodeResource - online insert ok:2 jhghhj
+2020-05-28 16:33:02 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:33:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:33:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:33:32 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:33:32 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-002, sheetDate=2020-05-28 16:33:32.2524849, scanDate=Thu May 28 16:33:32 CST 2020, kind=2, barCode=ddddd, locate=, scwJobNo=, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 16:33:32 INFO  c.s.r.JhBarcodeResource - online insert ok:2 ddddd
+2020-05-28 16:33:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:33:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:33:44 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:34:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:34:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:34:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:34:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:35:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:35:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:35:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:35:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:35:37 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:36:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:36:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:36:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:36:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:37:02 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:37:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:37:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:37:19 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:37:19 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-003, sheetDate=2020-05-28 16:37:19.3471486, scanDate=Thu May 28 15:26:54 CST 2020, kind=2, barCode=yyyyyy, locate=, scwJobNo=, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 16:37:19 INFO  c.s.r.JhBarcodeResource - online insert ok:2 yyyyyy
+2020-05-28 16:37:23 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:37:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:37:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:37:38 INFO  c.s.s.JhBarcodeService - jobNO:11111
+2020-05-28 16:37:38 INFO  c.s.s.JhBarcodeService - coilNo:1222222
+2020-05-28 16:37:38 INFO  c.s.s.JhBarcodeService - procDate:2020-05-28
+2020-05-28 16:37:38 INFO  c.s.s.JhBarcodeService - procEmp:dav
+2020-05-28 16:37:39 INFO  c.s.s.JhBarcodeService - {PV_FAILURE=N, PV_ERR_MSG=error: Hello ¥Ò°©¤å}
+2020-05-28 16:37:39 INFO  c.s.r.JhBarcodeResource - failuer:N
+2020-05-28 16:37:39 INFO  c.s.r.JhBarcodeResource - errMsg:error: Hello ¥Ò°©¤å
+2020-05-28 16:37:39 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:37:39 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-004, sheetDate=2020-05-28 16:37:39.8176599, scanDate=Thu May 28 15:27:14 CST 2020, kind=1, barCode=1222222, locate=, scwJobNo=11111, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 16:37:39 INFO  c.s.r.JhBarcodeResource - online insert ok:1 1222222
+2020-05-28 16:37:43 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:37:55 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:37:55 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-005, sheetDate=2020-05-28 16:37:55.2113434, scanDate=Thu May 28 15:27:29 CST 2020, kind=3, barCode=2222222, locate=, scwJobNo=, itemNo=0, isrtType=Y, reasonCode=0099, classNo=, passYn=}
+2020-05-28 16:37:55 INFO  c.s.r.JhBarcodeResource - online insert ok:3 2222222
+2020-05-28 16:37:56 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:37:56 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-006, sheetDate=2020-05-28 16:37:56.8450543, scanDate=Thu May 28 15:27:31 CST 2020, kind=3, barCode=333333, locate=, scwJobNo=, itemNo=0, isrtType=Y, reasonCode=0099, classNo=, passYn=}
+2020-05-28 16:37:56 INFO  c.s.r.JhBarcodeResource - online insert ok:3 333333
+2020-05-28 16:38:01 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:38:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:38:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:38:17 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:38:17 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-007, sheetDate=2020-05-28 16:38:17.9448149, scanDate=Thu May 28 15:27:52 CST 2020, kind=5, barCode=22, locate=L2, scwJobNo=22, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 16:38:17 INFO  c.s.r.JhBarcodeResource - online insert ok:5 22
+2020-05-28 16:38:21 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:38:34 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:38:34 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-008, sheetDate=2020-05-28 16:38:34.5447914, scanDate=Thu May 28 15:28:09 CST 2020, kind=4, barCode=1122, locate=, scwJobNo=, itemNo=0, isrtType=, reasonCode=, classNo=A, passYn=Y}
+2020-05-28 16:38:34 INFO  c.s.r.JhBarcodeResource - online insert ok:4 1122
+2020-05-28 16:38:37 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:38:37 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-009, sheetDate=2020-05-28 16:38:37.0128189, scanDate=Thu May 28 15:28:11 CST 2020, kind=4, barCode=3333, locate=, scwJobNo=, itemNo=0, isrtType=, reasonCode=, classNo=A, passYn=Y}
+2020-05-28 16:38:37 INFO  c.s.r.JhBarcodeResource - online insert ok:4 3333
+2020-05-28 16:38:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:38:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:38:40 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:39:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:39:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:39:11 INFO  c.s.s.JhBarcodeService - jobNO:fff
+2020-05-28 16:39:11 INFO  c.s.s.JhBarcodeService - coilNo:hhhhhh
+2020-05-28 16:39:11 INFO  c.s.s.JhBarcodeService - procDate:2020-05-28
+2020-05-28 16:39:11 INFO  c.s.s.JhBarcodeService - procEmp:dav
+2020-05-28 16:39:11 INFO  c.s.s.JhBarcodeService - {PV_FAILURE=N, PV_ERR_MSG=error: Hello ¥Ò°©¤å}
+2020-05-28 16:39:11 INFO  c.s.r.JhBarcodeResource - failuer:N
+2020-05-28 16:39:11 INFO  c.s.r.JhBarcodeResource - errMsg:error: Hello ¥Ò°©¤å
+2020-05-28 16:39:11 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:39:11 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-010, sheetDate=2020-05-28 16:39:11.8617718, scanDate=Thu May 28 16:39:12 CST 2020, kind=1, barCode=hhhhhh, locate=, scwJobNo=fff, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 16:39:11 INFO  c.s.r.JhBarcodeResource - online insert ok:1 hhhhhh
+2020-05-28 16:39:24 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:39:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:39:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:40:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:40:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:40:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:40:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:41:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:41:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:41:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:41:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:42:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:42:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:42:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:42:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:42:39 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 16:42:39 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-011, sheetDate=2020-05-28 16:42:39.5657518, scanDate=Thu May 28 16:42:39 CST 2020, kind=2, barCode=uuuuu, locate=, scwJobNo=, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 16:42:39 INFO  c.s.r.JhBarcodeResource - online insert ok:2 uuuuu
+2020-05-28 16:42:43 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:43:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:43:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:43:21 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 16:43:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:43:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:44:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:44:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:44:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:44:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:45:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:45:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:45:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:45:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:46:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:46:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:46:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:46:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:47:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:47:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:47:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:47:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:48:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:48:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:48:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:48:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:49:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:49:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:49:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:49:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:50:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:50:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:50:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:50:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:51:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:51:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:51:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:51:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:52:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:52:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:52:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:52:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:53:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:53:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:53:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:53:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:54:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:54:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:54:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:54:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:55:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:55:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:55:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:55:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:56:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:56:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:56:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:56:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:57:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:57:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:57:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:57:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:58:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:58:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:58:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:58:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:59:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:59:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:59:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 16:59:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:00:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:00:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:00:25 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 17:00:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:00:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:00:41 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 17:00:41 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-012, sheetDate=2020-05-28 17:00:41.2231984, scanDate=Thu May 28 17:00:41 CST 2020, kind=3, barCode=ggggg, locate=, scwJobNo=, itemNo=0, isrtType=Y, reasonCode=0099, classNo=, passYn=}
+2020-05-28 17:00:41 INFO  c.s.r.JhBarcodeResource - online insert ok:3 ggggg
+2020-05-28 17:00:47 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 17:01:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:01:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:01:25 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@73b4d211: (connection has passed maxLifetime)
+2020-05-28 17:01:25 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@735c348e
+2020-05-28 17:01:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:01:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:01:43 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@777a9bd1: (connection has passed maxLifetime)
+2020-05-28 17:01:43 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@ef806db
+2020-05-28 17:02:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:02:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:02:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:02:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:03:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:03:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:03:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:03:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:04:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:04:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:04:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:04:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:05:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:05:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:05:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:05:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:06:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:06:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:06:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:06:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:07:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:07:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:07:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:07:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:08:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:08:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:08:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:08:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:09:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:09:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:09:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:09:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:10:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:10:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:10:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:10:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:11:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:11:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:11:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:11:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:12:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:12:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:12:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:12:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:13:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:13:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:13:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:13:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:14:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:14:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:14:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:14:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:15:05 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 17:15:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:15:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:15:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:15:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:15:43 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 17:16:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:16:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:16:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:16:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:17:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:17:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:17:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:17:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:18:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:18:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:18:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:18:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:19:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:19:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:19:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:19:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:20:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:20:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:20:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:20:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:21:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:21:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:21:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:21:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:22:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:22:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:22:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:22:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:23:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:23:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:23:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:23:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:24:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:24:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:24:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:24:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:25:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:25:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:25:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:25:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:26:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:26:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:26:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:26:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:27:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:27:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:27:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:27:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:28:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:28:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:28:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:28:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:29:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:29:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:29:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:29:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:29:56 INFO  c.s.s.JhBarcodeService - insertData
+2020-05-28 17:29:56 INFO  c.s.s.JhBarcodeService - AskCoilScanTemp{procEmp=dav, sheetNo=20200528-013, sheetDate=2020-05-28 17:29:56.9705, scanDate=Thu May 28 17:29:56 CST 2020, kind=2, barCode=?ffghhffhhfhg, locate=, scwJobNo=, itemNo=0, isrtType=, reasonCode=, classNo=, passYn=}
+2020-05-28 17:29:56 INFO  c.s.r.JhBarcodeResource - online insert ok:2 ?ffghhffhhfhg
+2020-05-28 17:30:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:30:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:30:11 INFO  c.s.s.JhBarcodeService - scanDate:2020/05/28
+2020-05-28 17:30:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:30:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:30:43 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@735c348e: (connection has passed maxLifetime)
+2020-05-28 17:30:43 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7ae2f926
+2020-05-28 17:31:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:31:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:31:28 DEBUG c.z.h.p.PoolBase - HikariPool-1 - Closing connection oracle.jdbc.driver.T4CConnection@ef806db: (connection has passed maxLifetime)
+2020-05-28 17:31:28 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@5f2e5d17
+2020-05-28 17:31:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:31:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:32:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:32:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:32:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:32:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:33:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:33:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:33:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:33:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:34:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:34:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:34:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:34:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:35:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:35:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:35:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:35:37 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:36:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - Before cleanup stats (total=2, active=0, idle=2, waiting=0)
+2020-05-28 17:36:07 DEBUG c.z.h.p.HikariPool - HikariPool-1 - After cleanup  stats (total=2, active=0, idle=2, waiting=0)
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2020-09-12 22:16:34 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-12 22:16:34 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@439a8f59, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@61861a29, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@31024624, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@25bcd0c7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32cb636e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@63cd604c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@40dd3977, org.springframework.test.context.event.EventPublishingTestExecutionListener@3a4e343, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6a1d204a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@62dae245, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b6579e8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6fff253c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6c6357f9]
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2020-09-12 22:16:34 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-09-12 22:16:34 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-09-12 22:16:34 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@47428937, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3b9d6699, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7caa550, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@21694e53, org.springframework.test.context.support.DirtiesContextTestExecutionListener@72b16078, org.springframework.test.context.transaction.TransactionalTestExecutionListener@22c86919, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70fab835, org.springframework.test.context.event.EventPublishingTestExecutionListener@1b0a7baf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@62417a16, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@32057e6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@26be6ca7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ea1bcdc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@759fad4]
+2020-09-12 22:16:34 INFO  c.s.z.ZebraApplicationTests - Starting ZebraApplicationTests on LAPTOP-POOU703C with PID 5812 (started by User in D:\nbProjects\zebra)
+2020-09-12 22:16:34 DEBUG c.s.z.ZebraApplicationTests - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-09-12 22:16:34 INFO  c.s.z.ZebraApplicationTests - The following profiles are active: dev
+2020-09-12 22:16:35 DEBUG c.z.h.HikariConfig - Driver class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@15db9742
+2020-09-12 22:16:35 INFO  c.s.z.ZebraApplicationTests - Started ZebraApplicationTests in 1.473 seconds (JVM running for 2.45)
+2020-09-12 22:16:35 INFO  c.s.z.App - ----------------------------------------------
+2020-09-12 22:16:35 INFO  c.s.z.App - dbUrl:jdbc:oracle:thin:@localhost:1522:scorpio
+2020-09-12 22:16:35 INFO  c.s.z.App - Application ready...
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2021-02-02 14:24:10 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-02 14:24:10 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d5d9e5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@303e3593, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4ef27d66, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@362a019c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d9bec4d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5c48c0c0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10c8f62, org.springframework.test.context.event.EventPublishingTestExecutionListener@674c583e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@25f7391e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f23a3a0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ab14cb9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5fb97279, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@439a8f59]
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2021-02-02 14:24:10 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-02 14:24:10 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-02 14:24:10 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cd9150, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@114a85c2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f415a95, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@cf65451, org.springframework.test.context.support.DirtiesContextTestExecutionListener@724f138e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37eeec90, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@32fe9d0a, org.springframework.test.context.event.EventPublishingTestExecutionListener@c9413d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64da2a7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@46074492, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@d78795, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c715e84, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@47428937]
+2021-02-02 14:24:11 INFO  c.s.z.ZebraApplicationTests - Starting ZebraApplicationTests on LAPTOP-POOU703C with PID 4304 (started by User in D:\nbProjects\zebra)
+2021-02-02 14:24:11 DEBUG c.s.z.ZebraApplicationTests - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-02-02 14:24:11 INFO  c.s.z.ZebraApplicationTests - The following profiles are active: dev
+2021-02-02 14:24:11 DEBUG c.z.h.HikariConfig - Driver class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@15db9742
+2021-02-02 14:24:12 INFO  c.s.z.ZebraApplicationTests - Started ZebraApplicationTests in 1.491 seconds (JVM running for 2.491)
+2021-02-02 14:24:12 INFO  c.s.z.App - ----------------------------------------------
+2021-02-02 14:24:12 INFO  c.s.z.App - dbUrl:jdbc:oracle:thin:@localhost:1522:scorpio
+2021-02-02 14:24:12 INFO  c.s.z.App - Application ready...
+2021-02-02 14:43:25 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2021-02-02 14:43:25 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-02 14:43:25 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-02 14:43:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2021-02-02 14:43:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-02 14:43:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5d5d9e5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@303e3593, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4ef27d66, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@362a019c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d9bec4d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5c48c0c0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@10c8f62, org.springframework.test.context.event.EventPublishingTestExecutionListener@674c583e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@25f7391e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3f23a3a0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ab14cb9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5fb97279, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@439a8f59]
+2021-02-02 14:43:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2021-02-02 14:43:26 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-02 14:43:26 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-02 14:43:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2021-02-02 14:43:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-02 14:43:26 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12cd9150, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@114a85c2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@f415a95, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@cf65451, org.springframework.test.context.support.DirtiesContextTestExecutionListener@724f138e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37eeec90, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@32fe9d0a, org.springframework.test.context.event.EventPublishingTestExecutionListener@c9413d8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64da2a7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@46074492, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@d78795, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c715e84, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@47428937]
+2021-02-02 14:43:26 INFO  c.s.z.ZebraApplicationTests - Starting ZebraApplicationTests on LAPTOP-POOU703C with PID 276 (started by User in D:\nbProjects\zebra)
+2021-02-02 14:43:26 DEBUG c.s.z.ZebraApplicationTests - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-02-02 14:43:26 INFO  c.s.z.ZebraApplicationTests - The following profiles are active: dev
+2021-02-02 14:43:27 DEBUG c.z.h.HikariConfig - Driver class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@15db9742
+2021-02-02 14:43:27 INFO  c.s.z.ZebraApplicationTests - Started ZebraApplicationTests in 1.505 seconds (JVM running for 2.502)
+2021-02-02 14:43:27 INFO  c.s.z.App - ----------------------------------------------
+2021-02-02 14:43:27 INFO  c.s.z.App - dbUrl:jdbc:oracle:thin:@localhost:1522:scorpio
+2021-02-02 14:43:27 INFO  c.s.z.App - Application ready...
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2021-02-04 21:24:15 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-04 21:24:15 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ef27d66, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@362a019c, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1d9bec4d, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5c48c0c0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10c8f62, org.springframework.test.context.transaction.TransactionalTestExecutionListener@674c583e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25f7391e, org.springframework.test.context.event.EventPublishingTestExecutionListener@3f23a3a0, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5ab14cb9, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5fb97279, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@439a8f59, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@61861a29, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@31024624]
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.stit.zebra.ZebraApplicationTests], using SpringBootContextLoader
+2021-02-04 21:24:15 INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.stit.zebra.ZebraApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-04 21:24:15 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.stit.zebra.ZebraApplicationTests]: ZebraApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.stit.zebra.App for test class com.stit.zebra.ZebraApplicationTests
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-02-04 21:24:15 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f415a95, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@cf65451, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@724f138e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@37eeec90, org.springframework.test.context.support.DirtiesContextTestExecutionListener@32fe9d0a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@c9413d8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@64da2a7, org.springframework.test.context.event.EventPublishingTestExecutionListener@46074492, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@d78795, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2c715e84, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@47428937, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3b9d6699, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7caa550]
+2021-02-04 21:24:15 INFO  c.s.z.ZebraApplicationTests - Starting ZebraApplicationTests on LAPTOP-POOU703C with PID 14660 (started by User in D:\nbProjects\zebra)
+2021-02-04 21:24:15 DEBUG c.s.z.ZebraApplicationTests - Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-02-04 21:24:15 INFO  c.s.z.ZebraApplicationTests - The following profiles are active: dev
+2021-02-04 21:24:16 DEBUG c.z.h.HikariConfig - Driver class oracle.jdbc.OracleDriver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@15db9742
+2021-02-04 21:24:16 INFO  c.s.z.ZebraApplicationTests - Started ZebraApplicationTests in 1.517 seconds (JVM running for 2.505)
+2021-02-04 21:24:16 INFO  c.s.z.App - ----------------------------------------------
+2021-02-04 21:24:16 INFO  c.s.z.App - dbUrl:jdbc:oracle:thin:@localhost:1522:scorpio
+2021-02-04 21:24:16 INFO  c.s.z.App - Application ready...

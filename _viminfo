@@ -1,0 +1,359 @@
+# 本 viminfo 檔案是由 Vim 8.1 所產生.
+# 如果想要自行修改請特別小心！
+
+# Viminfo version
+|1,4
+
+# 'encoding' 在此檔建立時的值
+*encoding=cp950
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~MSle0~/Service
+
+# 命令列 歷史記錄 (新到舊):
+:x
+|2,0,1583820839,,"x"
+:q!
+|2,0,1581564314,,"q!"
+:w
+|2,0,1578887767,,"w"
+:q
+|2,0,1578404829,,"q"
+
+# 搜尋字串 歷史記錄 (新到舊):
+?/Service
+|2,1,1579666162,47,"Service"
+?/Se
+|2,1,1579666155,47,"Se"
+
+# 運算式 歷史記錄 (新到舊):
+
+# 輸入行  歷史記錄 (新到舊):
+
+# Debug Line 歷史記錄 (新到舊):
+
+# 暫存器:
+"0	LINE	0
+	cp d:\AndroidApps\EasyInventory2\app\build\outputs\apk\debug/app-debug.apk  d:\nbProjects\zebra\src\main\resources\templates
+|3,0,0,1,1,0,1578887664,"cp d:\\AndroidApps\\EasyInventory2\\app\\build\\outputs\\apk\\debug/app-debug.apk  d:\\nbProjects\\zebra\\src\\main\\resources\\templates"
+"1	LINE	0
+	set HOME=D:\nbProjects\zebra
+|3,0,1,1,1,0,1579661580,"set HOME=D:\\nbProjects\\zebra"
+"2	BLOCK	0
+	 
+|3,0,2,2,1,0,1578889372," "
+"3	LINE	0
+	
+|3,0,3,1,1,0,1578887667,""
+""-	CHAR	0
+	\
+|3,1,36,0,1,0,1579661585,"\\"
+
+# 檔案標記:
+'0  17  56  C:\Users\User\apps\zebra\zebra.log
+|4,48,17,56,1583820839,"C:\\Users\\User\\apps\\zebra\\zebra.log"
+'1  1  0  ~\zebra.log
+|4,49,1,0,1581564314,"~\\zebra.log"
+'2  944  85  ~\zebra.log
+|4,50,944,85,1581563369,"~\\zebra.log"
+'3  944  85  ~\zebra.log
+|4,51,944,85,1581563369,"~\\zebra.log"
+'4  550  71  ~\zebra.log
+|4,52,550,71,1581390509,"~\\zebra.log"
+'5  550  71  ~\zebra.log
+|4,53,550,71,1581390509,"~\\zebra.log"
+'6  550  71  ~\zebra.log
+|4,54,550,71,1581390509,"~\\zebra.log"
+'7  550  71  ~\zebra.log
+|4,55,550,71,1581390509,"~\\zebra.log"
+'8  441  52  ~\zebra.log
+|4,56,441,52,1579668537,"~\\zebra.log"
+'9  441  52  ~\zebra.log
+|4,57,441,52,1579668537,"~\\zebra.log"
+
+# Jumplist (由新到舊):
+-'  17  56  C:\Users\User\apps\zebra\zebra.log
+|4,39,17,56,1583820839,"C:\\Users\\User\\apps\\zebra\\zebra.log"
+-'  1  0  C:\Users\User\apps\zebra\zebra.log
+|4,39,1,0,1583820819,"C:\\Users\\User\\apps\\zebra\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1581564314,"~\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1581564314,"~\\zebra.log"
+-'  944  85  ~\zebra.log
+|4,39,944,85,1581563369,"~\\zebra.log"
+-'  944  85  ~\zebra.log
+|4,39,944,85,1581563369,"~\\zebra.log"
+-'  944  85  ~\zebra.log
+|4,39,944,85,1581563369,"~\\zebra.log"
+-'  944  85  ~\zebra.log
+|4,39,944,85,1581563369,"~\\zebra.log"
+-'  596  78  ~\zebra.log
+|4,39,596,78,1581563166,"~\\zebra.log"
+-'  596  78  ~\zebra.log
+|4,39,596,78,1581563166,"~\\zebra.log"
+-'  596  78  ~\zebra.log
+|4,39,596,78,1581563166,"~\\zebra.log"
+-'  596  78  ~\zebra.log
+|4,39,596,78,1581563166,"~\\zebra.log"
+-'  550  71  ~\zebra.log
+|4,39,550,71,1581563161,"~\\zebra.log"
+-'  550  71  ~\zebra.log
+|4,39,550,71,1581563161,"~\\zebra.log"
+-'  550  71  ~\zebra.log
+|4,39,550,71,1581563161,"~\\zebra.log"
+-'  550  71  ~\zebra.log
+|4,39,550,71,1581563161,"~\\zebra.log"
+-'  550  71  ~\zebra.log
+|4,39,550,71,1581390509,"~\\zebra.log"
+-'  550  71  ~\zebra.log
+|4,39,550,71,1581390509,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1581390416,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1581390416,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1581390416,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1581390416,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1581390416,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1581390416,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1579668537,"~\\zebra.log"
+-'  441  52  ~\zebra.log
+|4,39,441,52,1579668537,"~\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1579666162,"~\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1579666162,"~\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1579666162,"~\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1579666162,"~\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1579666162,"~\\zebra.log"
+-'  1  0  ~\zebra.log
+|4,39,1,0,1579666162,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  381  3  ~\zebra.log
+|4,39,381,3,1579666159,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  10  92  ~\zebra.log
+|4,39,10,92,1579666062,"~\\zebra.log"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  2  8  C:\Users\User\apps\zebra\log2.bat
+|4,39,2,8,1579661586,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+-'  1  0  C:\Users\User\apps\zebra\log2.bat
+|4,39,1,0,1579661575,"C:\\Users\\User\\apps\\zebra\\log2.bat"
+
+# 檔案內 Mark 記錄 (由新到舊):
+
+> C:\Users\User\apps\zebra\zebra.log
+	*	1583820838	0
+	"	17	56
+
+> ~\zebra.log
+	*	1581564312	0
+	"	1	0
+
+> C:\Users\User\apps\zebra\log2.bat
+	*	1579661585	0
+	"	2	8
+	.	2	8
+	+	1	8
+	+	2	8
+
+> C:\Users\User\apps\zebra\dist\cpZebra.bat
+	*	1579594282	0
+	"	1	0
+
+> C:\Users\User\apps\zebra\cpAPK.bat
+	*	1578889380	0
+	"	2	16
+	^	2	16
+	.	3	0
+	+	1	83
+	+	2	16
+	+	3	0
+
+> C:\Users\User\apps\zebra\cpEasy.bat
+	*	1578887813	0
+	"	1	73
+	^	1	74
+	.	1	73
+	+	1	0
+	+	2	0
+	+	1	91
+	+	3	22
+	+	4	0
+	+	3	3
+	+	1	73
+
+> C:\Users\User\apps\zebra\apk.bat
+	*	1578800444	0
+	"	1	71
+	^	1	119
+	.	2	0
+	+	1	69
+	+	1	71
+	+	2	0
+
+> C:\Users\ASUS\apps\zebra\upload\20200107HH0335-035.csv-20200107230335-792
+	*	1578410053	0
+	"	2	12
+
+> C:\Users\ASUS\apps\zebra\upload\20200107HH5746-046.csv-20200107095746-677
+	*	1578409382	0
+	"	3	46
+
+> C:\Users\ASUS\apps\zebra\upload\20200107HH0016-016.csv-20200107230016-928
+	*	1578409365	0
+	"	2	12
+
+> C:\Users\ASUS\apps\zebra\upload\.20200107HH5746-046.csv-20200107095746-677.swp
+	*	1578409236	0
+	"	1	0
+
+> E:\oracle\oradata\CHUDB\cre.sql
+	*	1578404827	0
+	"	26	22
+	.	27	0
+	+	1	0
+	+	27	0
+
+> C:\Users\ASUS\apps\zebra\sp.bat
+	*	1578402676	0
+	"	1	28
+	^	1	29
+	.	1	28
+	+	1	28
